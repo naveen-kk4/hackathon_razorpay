@@ -1,0 +1,63 @@
+
+.container{
+    margin: auto;
+    margin-top: 30%;
+    width: 80%;
+    max-width: 300px;
+    height: 410px;
+    border: 1px solid rgb(247, 243, 243);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-image: url("https://img.freepik.com/premium-vector/testimonial-mobile-isometric-illustration-dark-gradient-suitable-mobile-app-website-banner-diagrams-infographics-other-graphic-assets_210682-798.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+   
+}
+.main_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    background-color: rgb(56,145,248);
+    border-radius: 5px;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.input_tbn{
+    width: 90%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 0px solid white;
+    box-shadow: rgb(28, 130, 219) 3px 3px 6px 0px inset, rgba(69, 93, 244, 0.5) -3px -3px 6px 1px inset; box-shadow: 2px 2px 2px;
+}
+
+.input_tbn::placeholder{
+    font-size: medium;
+}
+
+#submit-btn{
+    background-color:white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    /* position: absolute; */
+    bottom: 30px;
+    width: 50%;
+    box-shadow: 2px 2px 2px;
+    font-size: medium;
+    letter-spacing:2px;
+    color: rgb(35,39,68);
+}
+.header{
+    color: white;
+    
+}
