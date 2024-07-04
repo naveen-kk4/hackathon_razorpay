@@ -1,10 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 .container{
-    margin: auto;
-    margin-top: 30%;
+    margin-top: 100px;
     width: 80%;
     max-width: 300px;
-    height: 410px;
+    min-height: 410px;
     border: 1px solid rgb(247, 243, 243);
     border-radius: 10px;
     display: flex;
@@ -56,8 +55,48 @@
     font-size: medium;
     letter-spacing:2px;
     color: rgb(35,39,68);
+    cursor: pointer;
 }
 .header{
     color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
     
+}
+
+
+#submit-btn:hover {
+  background: #F6F9FE;
+  color: #174ea6;
+}
+
+#submit-btn:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+#submit-btn:focus {
+  outline: none;
+  border: 2px solid #4285f4;
+}
+
+#submit-btn:not(:disabled) {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+#submit-btn:not(:disabled):hover {
+  box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+}
+
+#submit-btn:not(:disabled):focus {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+#submit-btn:not(:disabled):active {
+  box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+}
+
+#submit-btn:disabled {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
 }
